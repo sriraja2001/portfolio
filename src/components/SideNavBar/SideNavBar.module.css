@@ -20,7 +20,7 @@
   color: lightgrey;
   font-size: 20px;
   cursor: pointer;
-  transition: font-size 0.1s, color 0.2s;
+  transition: font-size 0.1s, color 0.1s;
   transition-timing-function: ease-out;
 }
 

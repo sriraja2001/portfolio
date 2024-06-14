@@ -15,6 +15,7 @@ const SideNavBar = ({ tabs, selectedTab, setSelectedTab }) => {
             className={styles.nav_element}
             style={selectedTab === index ? selectedTabStyle : null}
             onClick={() => setSelectedTab(index)}
+            key={index}
           >
             {tab}
           </div>
