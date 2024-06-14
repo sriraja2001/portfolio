@@ -1,0 +1,30 @@
+.nav_body {
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 350px;
+  width: 150px;
+  box-sizing: border-box;
+}
+
+.nav_element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: lightgrey;
+  font-size: 20px;
+  cursor: pointer;
+  transition: font-size 0.1s, color 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.nav_element:hover {
+  font-size: 22px;
+  font-weight: 500;
+}
