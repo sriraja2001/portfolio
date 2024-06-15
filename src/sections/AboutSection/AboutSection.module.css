@@ -47,11 +47,17 @@
   margin-bottom: 50px;
 }
 
+.content p span {
+  font-weight: 600;
+  cursor: pointer;
+}
+
 .content .socials {
   height: 20px;
   width: 220px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .content img {
