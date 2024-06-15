@@ -40,13 +40,15 @@ function App() {
         selectedTab={selectedTab}
         setSelectedTab={setSelectedTab}
       />
-      <AboutSection />
-      <div style={{ height: "400px" }}></div>
+      <div className="content_body">
+        <AboutSection />
+      </div>
+      {/* <div style={{ height: "400px" }}></div>
       <div style={{ height: "400px" }}></div>
       <div style={{ height: "400px" }}></div>
       <div style={{ height: "600px" }}></div>
       <div style={{ height: "600px" }}></div>
-      <div style={{ height: "300px" }}></div>
+      <div style={{ height: "300px" }}></div> */}
     </div>
   );
 }

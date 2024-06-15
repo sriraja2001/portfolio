@@ -2,7 +2,7 @@ import styles from "./SideNavBar.module.css";
 
 const SideNavBar = ({ tabs, selectedTab, setSelectedTab }) => {
   const selectedTabStyle = {
-    color: "black",
+    color: "grey",
     fontSize: "25px",
     fontWeight: 600,
   };
