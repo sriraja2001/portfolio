@@ -7,6 +7,7 @@ import linkedinIcon from "../../res/linkedin_icon.png";
 import xIcon from "../../res/x_icon.png";
 import resumeIcon from "../../res/resume.png";
 import messageIcon from "../../res/message.png";
+import aboutBg from "../../res/about-bg.png";
 import GradientText from "../../components/GradientText/GradientText";
 import { useEffect, useRef, useState } from "react";
 

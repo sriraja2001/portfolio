@@ -1,0 +1,20 @@
+.toggle_body {
+  height: 35px;
+  width: 75px;
+  position: absolute;
+  top: 110px;
+  right: 62.5px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  transition: background-color 0.35s ease;
+  border: 1px solid black;
+}
+
+.switch {
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+  background-color: lightgrey;
+  transition: margin-left 0.35s ease, margin-right 0.35s ease;
+}

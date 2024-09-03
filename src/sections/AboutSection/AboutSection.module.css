@@ -61,6 +61,7 @@
   display: flex;
   align-items: center;
   font-weight: 600;
+  user-select: none;
 }
 
 .connect .resume {
@@ -74,6 +75,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: background-color 0.2s ease-in;
 }
 
 .connect .message {
@@ -88,6 +90,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: background-color 0.2s ease-in;
 }
 
 .connect .connect_icon {
@@ -98,12 +101,20 @@
   border-radius: 0;
 }
 
+.connect .message:hover {
+  background-color: rgb(167, 167, 167);
+}
+
+.connect .resume:hover {
+  background-color: rgb(148, 148, 148);
+}
+
 .body .content {
   width: 50vw;
   box-sizing: border-box;
   border-left: solid lightgrey 2.5px;
   padding: 10px 0 10px 25px;
-  margin-top: 50px;
+  margin-top: 75px;
   font-size: 19px;
   line-height: 32px;
   text-align: justify;

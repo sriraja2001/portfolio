@@ -2,6 +2,8 @@ import { useRef, useState } from "react";
 import "./App.css";
 import SideNavBar from "./components/SideNavBar/SideNavBar";
 import AboutSection from "./sections/AboutSection/AboutSection";
+import ToggleSwitch from "./components/ToggleSwitch/ToggleSwitch";
+import ExpSection from "./sections/ExpSection/ExpSection";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState(0);
@@ -40,9 +42,11 @@ function App() {
         selectedTab={selectedTab}
         setSelectedTab={setSelectedTab}
       />
+      <ToggleSwitch />
 
       <div className="content_body">
         <AboutSection />
+        <ExpSection />
       </div>
       <div style={{ height: "400px" }}></div>
       <div style={{ height: "400px" }}></div>
