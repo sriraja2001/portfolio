@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import "./App.css";
 import SideNavBar from "./components/SideNavBar/SideNavBar";
 import AboutSection from "./sections/AboutSection/AboutSection";
@@ -9,9 +9,9 @@ function App() {
 
   const pageScrollHandler = (e) => {
     const { scrollTop, scrollHeight, clientHeight } = e.target;
-    console.log("scrollTop:", scrollTop); // Current scroll position from the top
-    console.log("scrollHeight:", scrollHeight); // Total height of the content
-    console.log("clientHeight:", clientHeight); // Height of the visible area
+    // console.log("scrollTop:", scrollTop); // Current scroll position from the top
+    // console.log("scrollHeight:", scrollHeight); // Total height of the content
+    // console.log("clientHeight:", clientHeight); // Height of the visible area
     if (scrollTop <= 400) {
       setSelectedTab(0);
     } else if (scrollTop <= 800) {
@@ -40,15 +40,16 @@ function App() {
         selectedTab={selectedTab}
         setSelectedTab={setSelectedTab}
       />
+
       <div className="content_body">
         <AboutSection />
       </div>
-      {/* <div style={{ height: "400px" }}></div>
+      <div style={{ height: "400px" }}></div>
       <div style={{ height: "400px" }}></div>
       <div style={{ height: "400px" }}></div>
       <div style={{ height: "600px" }}></div>
       <div style={{ height: "600px" }}></div>
-      <div style={{ height: "300px" }}></div> */}
+      <div style={{ height: "300px" }}></div>
     </div>
   );
 }
