@@ -1,6 +1,5 @@
 .body {
   width: 100%;
-  height: 300px;
   margin-top: 80px;
 }
 
@@ -97,4 +96,22 @@
   box-sizing: border-box;
   border-left: solid lightgrey 2.5px;
   padding-left: 25px;
+}
+
+.tile_body .certificate {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.tile_body .link_icon {
+  height: 18px;
+  width: 18px;
+  object-fit: cover;
+}
+
+.tile_body .certif_title {
+  font-size: 14px;
+  margin-left: 10px;
 }

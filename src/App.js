@@ -4,6 +4,7 @@ import SideNavBar from "./components/SideNavBar/SideNavBar";
 import AboutSection from "./sections/AboutSection/AboutSection";
 import ToggleSwitch from "./components/ToggleSwitch/ToggleSwitch";
 import ExpSection from "./sections/ExpSection/ExpSection";
+import ProjectSection from "./sections/ProjectSection/ProjectSection";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState(0);
@@ -42,11 +43,12 @@ function App() {
         selectedTab={selectedTab}
         setSelectedTab={setSelectedTab}
       />
-      <ToggleSwitch />
+      {/* <ToggleSwitch /> */}
 
       <div className="content_body">
         <AboutSection />
         <ExpSection />
+        <ProjectSection />
       </div>
       <div style={{ height: "400px" }}></div>
       <div style={{ height: "400px" }}></div>
