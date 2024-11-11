@@ -6,6 +6,7 @@ import ToggleSwitch from "./components/ToggleSwitch/ToggleSwitch";
 import ExpSection from "./sections/ExpSection/ExpSection";
 import ProjectSection from "./sections/ProjectSection/ProjectSection";
 import EduSection from "./sections/EduSection/EduSection";
+import SkillSection from "./sections/SkillSection/SkillSection";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState(0);
@@ -58,6 +59,7 @@ function App() {
         <EduSection />
         <ExpSection />
         <ProjectSection />
+        <SkillSection />
       </div>
       <div style={{ height: "400px" }}></div>
       <div style={{ height: "400px" }}></div>

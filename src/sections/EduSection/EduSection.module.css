@@ -9,7 +9,7 @@
 }
 
 .body .edu_list {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .tile_body {
@@ -28,8 +28,8 @@
 }
 
 .tile_body .logo {
-  height: 90px;
-  width: 90px;
+  height: 80px;
+  width: 80px;
   object-fit: contain;
 }
 
@@ -43,14 +43,13 @@
 }
 
 .uni_details .degree {
-  margin-top: 3px;
   font-size: 17px;
   font-weight: 500;
   color: rgb(131, 131, 131);
 }
 
 .uni_details .duration {
-  margin-top: 10px;
+  margin-top: 7px;
   font-size: 16px;
   font-weight: 400;
 }

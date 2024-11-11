@@ -1,0 +1,59 @@
+.body {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.body .title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.skill_tile {
+  margin-top: 20px;
+  height: 92px;
+  box-sizing: border-box;
+  transition: height 0.5s ease;
+  overflow: hidden;
+}
+
+.skill_tile .skill_category {
+  font-size: 22px;
+  font-weight: 500;
+  color: slategray;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.skill_category .expand_icon {
+  height: 15px;
+  width: 15px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-top: 5px;
+  transition: transform 0.5s ease;
+}
+
+.body .skill_content {
+  margin-top: 10px;
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-content: flex-start;
+}
+
+.pill_body {
+  margin: 6px 6px 6px 0;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  border-radius: 30px;
+  border: solid 2px lightgrey;
+  background-color: lightgrey;
+  color: rgb(77, 77, 77);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
