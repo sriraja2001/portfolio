@@ -1,0 +1,56 @@
+.body {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.body .title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.body .edu_list {
+  margin-top: 20px;
+}
+
+.tile_body {
+  height: 100px;
+  width: 90%;
+  display: flex;
+  margin-top: 30px;
+}
+
+.tile_body .content {
+  height: 100%;
+  width: 50vw;
+  padding: 0px 0 35px 0;
+  display: flex;
+  align-items: center;
+}
+
+.tile_body .logo {
+  height: 90px;
+  width: 90px;
+  object-fit: contain;
+}
+
+.tile_body .uni_details {
+  margin-left: 30px;
+}
+
+.uni_details .name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.uni_details .degree {
+  margin-top: 3px;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(131, 131, 131);
+}
+
+.uni_details .duration {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}

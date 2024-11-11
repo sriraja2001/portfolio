@@ -5,10 +5,18 @@ import AboutSection from "./sections/AboutSection/AboutSection";
 import ToggleSwitch from "./components/ToggleSwitch/ToggleSwitch";
 import ExpSection from "./sections/ExpSection/ExpSection";
 import ProjectSection from "./sections/ProjectSection/ProjectSection";
+import EduSection from "./sections/EduSection/EduSection";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState(0);
-  const tabNames = ["About Me", "Experience", "Projects", "Skills", "Contact"];
+  const tabNames = [
+    "About Me",
+    "Education",
+    "Experience",
+    "Projects",
+    "Skills",
+    "Contact",
+  ];
 
   const pageScrollHandler = (e) => {
     const { scrollTop, scrollHeight, clientHeight } = e.target;
@@ -47,6 +55,7 @@ function App() {
 
       <div className="content_body">
         <AboutSection />
+        <EduSection />
         <ExpSection />
         <ProjectSection />
       </div>
