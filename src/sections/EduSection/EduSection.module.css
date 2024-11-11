@@ -9,7 +9,9 @@
 }
 
 .body .edu_list {
-  margin-top: 0px;
+  margin-top: 15px;
+  width: 30%;
+  display: flex;
 }
 
 .tile_body {
