@@ -2,6 +2,7 @@ import styles from "./ExpSection.module.css";
 import msLogo from "../../res/ms_logo.png";
 import niqoLogo from "../../res/niqo_logo.png";
 import nusLogo from "../../res/nus_logo.png";
+import samsungLogo from "../../res/samsung-logo.png";
 import linkIcon from "../../res/link_icon.png";
 
 const ExpSection = () => {
@@ -46,6 +47,16 @@ const ExpSection = () => {
             "Utilized Apache Spark and Azure Event Hubs in a cloud-based infrastructure to ingest massive amounts of real-time Twitter tweets, and then deciphered the general opinion about any given topic by applying sentiment analysis on the captured tweets."
           }
           logo={msLogo}
+          certificateDescription={"Certificate of Completion"}
+        />
+        <ExpTile
+          isEnd
+          title={"Research Intern, Samsung India"}
+          tenure={"May 2021 - November 2021"}
+          description={
+            "Constructed a deep neural network specifically designed to predict the optimal bitrate for video streams transmitted from security cameras, reducing frame loss during data transmission."
+          }
+          logo={samsungLogo}
           certificateDescription={"Certificate of Completion"}
         />
       </div>
