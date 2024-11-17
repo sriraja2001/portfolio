@@ -8,6 +8,7 @@ const ToggleSwitch = () => {
       className={styles.toggle_body}
       style={{
         backgroundColor: toggle ? "white" : "black",
+        borderColor: toggle ? "rgb(224, 224, 224)" : "black",
       }}
       onClick={() => {
         setToggle((curr) => {
