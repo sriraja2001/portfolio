@@ -66,8 +66,7 @@ const AboutSection = () => {
             fascinated me, and I quickly dove deeper into the field. Today, as a
             computer engineer with a deep interest in{" "}
             <GradientText>AI & ML</GradientText>, supported by solid experiences
-            exploring the field, working with{" "}
-            <GradientText>Microsoft</GradientText>,{" "}
+            exploring the field, with <GradientText>Microsoft</GradientText>,{" "}
             <GradientText>Samsung</GradientText> and the professors at the{" "}
             <GradientText>National University of Singapore</GradientText>, I’m
             constantly experimenting with technologies that bring about
