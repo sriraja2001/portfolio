@@ -39,13 +39,13 @@ const AboutSection = () => {
     <>
       <div className={styles.name_bar} style={{ opacity: isOutOfView ? 1 : 0 }}>
         <img src={profileMem} />
-        <div className={styles.name}>Sri Raja Vignesh</div>
+        <div className={styles.name}>Sriraja Vignesh</div>
       </div>
       <div className={styles.body} id="section-About">
         <div className={styles.header} ref={targetRef} id="About">
           <img src={profile} />
           <div className={styles.text}>
-            <div className={styles.name}>Sri Raja Vignesh</div>
+            <div className={styles.name}>Sriraja Vignesh</div>
             <div className={styles.title}>Computer Engineer</div>
             <div className={styles.connect}>
               <div className={styles.resume}>
