@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f44d1285.css",
+    "main.css": "/portfolio/static/css/main.1cb28dc4.css",
     "main.js": "/portfolio/static/js/main.7bb15938.js",
     "static/media/instagram_icon.png": "/portfolio/static/media/instagram_icon.c6843e4eb7cdf715165b.png",
     "static/media/nus_logo.png": "/portfolio/static/media/nus_logo.e934c791e7cbeaa7848a.png",
@@ -16,11 +16,11 @@
     "static/media/linkedin_icon.png": "/portfolio/static/media/linkedin_icon.1287304cadce5a110bf3.png",
     "static/media/message.png": "/portfolio/static/media/message.a167b22a7f94a601fedd.png",
     "index.html": "/portfolio/index.html",
-    "main.f44d1285.css.map": "/portfolio/static/css/main.f44d1285.css.map",
+    "main.1cb28dc4.css.map": "/portfolio/static/css/main.1cb28dc4.css.map",
     "main.7bb15938.js.map": "/portfolio/static/js/main.7bb15938.js.map"
   },
   "entrypoints": [
-    "static/css/main.f44d1285.css",
+    "static/css/main.1cb28dc4.css",
     "static/js/main.7bb15938.js"
   ]
 }
