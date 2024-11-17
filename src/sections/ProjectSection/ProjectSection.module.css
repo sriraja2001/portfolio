@@ -76,6 +76,14 @@
   align-items: center;
   cursor: pointer;
   margin-top: 20px;
+  padding: 2px 12px;
+  width: fit-content;
+  border-radius: 15px;
+  transition: all 0.25s ease;
+}
+
+.certificate:hover {
+  background: rgb(232, 232, 232);
 }
 
 .certificate .link_icon {
@@ -100,7 +108,6 @@
   height: 197px;
   width: 140px;
   position: relative;
-  cursor: pointer;
 }
 
 .img_container .link_button {
@@ -117,6 +124,12 @@
   justify-content: center;
   user-select: none;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.link_button:hover {
+  background: rgb(232, 232, 232);
 }
 
 .link_button .link_image {

@@ -74,6 +74,7 @@ const ExpTile = ({
   description,
   logo,
   certificateDescription,
+  certificateLink,
 }) => {
   return (
     <div className={styles.tile_body}>
@@ -83,7 +84,12 @@ const ExpTile = ({
         <div className={styles.description}>
           {description}
           {certificateDescription && (
-            <div className={styles.certificate}>
+            <div
+              className={styles.certificate}
+              onClick={() => {
+                window.open(certificateLink, "_blank");
+              }}
+            >
               <img src={linkIcon} className={styles.link_icon} />
               <span className={styles.certif_title}>
                 {certificateDescription}

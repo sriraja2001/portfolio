@@ -1,6 +1,5 @@
 import styles from "./ProjectSection.module.css";
 import linkIcon from "../../res/link_icon.png";
-import thumbnail from "../../res/thumbnail.png";
 import projectOne from "../../res/project-1.png";
 import projectTwo from "../../res/project-2.png";
 
@@ -26,6 +25,9 @@ const ProjectSection = () => {
             "Flask",
           ]}
           certificateDescription={"IEEE Research Paper"}
+          certificateLink={
+            "https://drive.google.com/file/d/1T9yU6cIjprgHA4B1Mu4_lIgFU9MaOfX7/view?usp=sharing"
+          }
           thumbnail={projectOne}
         />
         <ProjectTile
@@ -42,6 +44,9 @@ const ProjectSection = () => {
             "Flask",
           ]}
           certificateDescription={"IEEE Research Paper"}
+          certificateLink={
+            "https://drive.google.com/file/d/1e90sOWrPw52CxoVBFjNsLWeKaDkm_n_v/view?usp=sharing"
+          }
           thumbnail={projectTwo}
         />
       </div>
@@ -56,6 +61,7 @@ const ProjectTile = ({
   thumbnail,
   skills,
   certificateDescription,
+  certificateLink,
 }) => {
   return (
     <div className={styles.tile_body}>
@@ -65,8 +71,19 @@ const ProjectTile = ({
         <div className={styles.description}>
           {description}
           {certificateDescription && (
-            <div className={styles.certificate}>
-              <img src={linkIcon} className={styles.link_icon} />
+            <div
+              className={styles.certificate}
+              onClick={() => {
+                window.open(certificateLink, "_blank");
+              }}
+            >
+              <img
+                src={linkIcon}
+                className={styles.link_icon}
+                onClick={() => {
+                  window.open(certificateLink, "_blank");
+                }}
+              />
               <span className={styles.certif_title}>
                 {certificateDescription}
               </span>
@@ -82,9 +99,13 @@ const ProjectTile = ({
         </div>
       </div>
       <div className={styles.document}>
-        {/* <iframe src="https://drive.google.com/file/d/1hJAgczBj1Y6H00-qjB_5irje5yPO8ZYt/preview"></iframe> */}
         <div className={styles.img_container}>
-          <div className={styles.link_button}>
+          <div
+            className={styles.link_button}
+            onClick={() => {
+              window.open(certificateLink, "_blank");
+            }}
+          >
             <img src={linkIcon} className={styles.link_image} />
           </div>
           <img src={thumbnail} className={styles.thumbnail_icon} />

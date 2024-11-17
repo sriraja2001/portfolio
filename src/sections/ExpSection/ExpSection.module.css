@@ -103,6 +103,14 @@
   align-items: center;
   cursor: pointer;
   margin-top: 20px;
+  padding: 2px 12px;
+  width: fit-content;
+  border-radius: 15px;
+  transition: all 0.25s ease;
+}
+
+.certificate:hover {
+  background: rgb(232, 232, 232);
 }
 
 .tile_body .link_icon {
