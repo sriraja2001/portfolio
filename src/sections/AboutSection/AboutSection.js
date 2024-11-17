@@ -41,8 +41,8 @@ const AboutSection = () => {
         <img src={profileMem} />
         <div className={styles.name}>Sri Raja Vignesh</div>
       </div>
-      <div className={styles.body}>
-        <div className={styles.header} ref={targetRef}>
+      <div className={styles.body} id="section-About">
+        <div className={styles.header} ref={targetRef} id="About">
           <img src={profile} />
           <div className={styles.text}>
             <div className={styles.name}>Sri Raja Vignesh</div>

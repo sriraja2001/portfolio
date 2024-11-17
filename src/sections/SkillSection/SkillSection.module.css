@@ -6,6 +6,7 @@
 .body .title {
   font-size: 40px;
   font-weight: 600;
+  margin-bottom: 40px;
 }
 
 .skill_tile {
@@ -23,6 +24,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  user-select: none;
 }
 
 .skill_category .expand_icon {

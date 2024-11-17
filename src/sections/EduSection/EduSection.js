@@ -5,7 +5,9 @@ import psgLogo from "../../res/psg-logo.png";
 const EduSection = () => {
   return (
     <div className={styles.body}>
-      <div className={styles.title}>Education</div>
+      <div className={styles.title} id="Education">
+        Education
+      </div>
       <div className={styles.edu_list}>
         <EduTile
           name={"University of California, Santa Cruz"}

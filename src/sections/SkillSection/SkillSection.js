@@ -5,8 +5,10 @@ import collapseIcon from "../../res/down-arrow.png";
 
 const SkillSection = () => {
   return (
-    <div className={styles.body}>
-      <div className={styles.title}>Skills</div>
+    <div className={styles.body} id="section-Skills">
+      <div className={styles.title} id="Skills">
+        Skills
+      </div>
       <SkillTile
         categoryName={"Programming Languages"}
         skills={["Python", "Java", "C", "C++", "JavaScript"]}
@@ -57,13 +59,15 @@ const SkillTile = (props) => {
       //   onMouseEnter={() => setIsHovered(true)}
       //   onMouseLeave={() => setIsHovered(false)}
     >
-      <div className={styles.skill_category}>
+      <div
+        className={styles.skill_category}
+        onClick={() => setIsExpanded(() => !isExpanded)}
+      >
         {props.categoryName}
         <img
           className={styles.expand_icon}
           src={collapseIcon}
           style={{ transform: isExpanded ? "rotate(-180deg)" : "rotate(0deg)" }}
-          onClick={() => setIsExpanded(() => !isExpanded)}
         />
       </div>
       <div className={styles.skill_content}>

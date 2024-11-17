@@ -7,8 +7,10 @@ import linkIcon from "../../res/link_icon.png";
 
 const ExpSection = () => {
   return (
-    <div className={styles.body}>
-      <div className={styles.title}>Experience</div>
+    <div className={styles.body} id="section-Experience">
+      <div className={styles.title} id="Experience">
+        Experience
+      </div>
       <div className={styles.exp_list}>
         <ExpTile
           isStart
@@ -64,8 +66,6 @@ const ExpSection = () => {
   );
 };
 
-export default ExpSection;
-
 const ExpTile = ({
   isStart,
   isEnd,
@@ -102,3 +102,5 @@ const ExpTile = ({
     </div>
   );
 };
+
+export default ExpSection;
