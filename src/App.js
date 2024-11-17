@@ -39,7 +39,7 @@ function App() {
       }
     );
 
-    const elements = document.querySelectorAll('[id^="section-"]'); // This will select elements with ids starting with "element"
+    const elements = document.querySelectorAll('[id^="section-"]'); // This will select elements with ids starting with "section"
 
     elements.forEach((element) => observer.observe(element));
 

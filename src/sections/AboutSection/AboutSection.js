@@ -70,8 +70,8 @@ const AboutSection = () => {
             <GradientText>Microsoft</GradientText>,{" "}
             <GradientText>Samsung</GradientText> and the professors at the{" "}
             <GradientText>National University of Singapore</GradientText>, I’m
-            constantly experimenting with technologies can transform application
-            development and bring innovative solutions to life.<br></br>
+            constantly experimenting with technologies that bring about
+            innovation.<br></br>
           </p>
           <div className={styles.socials}>
             <img src={instagramIcon} />
