@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.4bce15f8.css",
+    "main.js": "/portfolio-website/static/js/main.29c81bfd.js",
+    "static/media/thumbnail.png": "/portfolio-website/static/media/thumbnail.d27b6fcf8abfba13ff75.png",
+    "static/media/instagram_icon.png": "/portfolio-website/static/media/instagram_icon.c6843e4eb7cdf715165b.png",
+    "static/media/nus_logo.png": "/portfolio-website/static/media/nus_logo.e934c791e7cbeaa7848a.png",
+    "static/media/ucsc-logo.png": "/portfolio-website/static/media/ucsc-logo.1e861298a8502d88387d.png",
+    "static/media/project-1.png": "/portfolio-website/static/media/project-1.742e79af4c167e179834.png",
+    "static/media/project-2.png": "/portfolio-website/static/media/project-2.4e9e8981026c682d61c3.png",
+    "static/media/about-bg.png": "/portfolio-website/static/media/about-bg.fad3da2594dba9309f76.png",
+    "static/media/profile.jpeg": "/portfolio-website/static/media/profile.d42e5cbe1027f1607a35.jpeg",
+    "static/media/gmail_icon.png": "/portfolio-website/static/media/gmail_icon.5e1dcd2e6a258729bcd6.png",
+    "static/media/samsung-logo.png": "/portfolio-website/static/media/samsung-logo.4e4489c3a73942fc0dff.png",
+    "static/media/psg-logo.png": "/portfolio-website/static/media/psg-logo.91e77536c98ac2d70b22.png",
+    "static/media/profile_mem.jpeg": "/portfolio-website/static/media/profile_mem.e1523cd140697d148a0c.jpeg",
+    "static/media/linkedin_icon.png": "/portfolio-website/static/media/linkedin_icon.1287304cadce5a110bf3.png",
+    "static/media/message.png": "/portfolio-website/static/media/message.a167b22a7f94a601fedd.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.4bce15f8.css.map": "/portfolio-website/static/css/main.4bce15f8.css.map",
+    "main.29c81bfd.js.map": "/portfolio-website/static/js/main.29c81bfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bce15f8.css",
+    "static/js/main.29c81bfd.js"
+  ]
+}
