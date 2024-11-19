@@ -7,6 +7,7 @@ import ExpSection from "./sections/ExpSection/ExpSection";
 import ProjectSection from "./sections/ProjectSection/ProjectSection";
 import EduSection from "./sections/EduSection/EduSection";
 import SkillSection from "./sections/SkillSection/SkillSection";
+import SkillGridSection from "./sections/SkillGridSection/SkillGridSection";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState(0);
@@ -62,7 +63,8 @@ function App() {
         <EduSection />
         <ExpSection />
         <ProjectSection />
-        <SkillSection />
+        {/* <SkillSection /> */}
+        <SkillGridSection />
       </div>
       <div style={{ height: "200px" }}></div>
     </div>
